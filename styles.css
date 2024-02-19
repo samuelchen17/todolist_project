@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 14px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+form, section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form textarea {
+    resize: none;
+    width: 100%;
+    min-height: 60px;
+    padding: 14px;
+}
+
+form button {
+    padding: 4px;
+    cursor: pointer;
+}
