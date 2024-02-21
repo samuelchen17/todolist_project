@@ -36,3 +36,34 @@ form button {
     padding: 4px;
     cursor: pointer;
 }
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.todo {
+
+}
+
+.iconBtn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 4px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.iconBtn:hover {
+    background: red;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 5px;
+}
