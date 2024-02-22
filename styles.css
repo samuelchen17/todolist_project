@@ -37,14 +37,16 @@ form button {
     cursor: pointer;
 }
 
-.todoContainer {
+.todoContainer, .todo {
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
 
 .todo {
-
+    padding: 14px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }
 
 .iconBtn {
@@ -60,10 +62,11 @@ form button {
 }
 
 .iconBtn:hover {
-    background: red;
+    background: lightblue;
 }
 
 .btnContainer {
     display: flex;
+    justify-content: flex-end;
     gap: 5px;
 }
